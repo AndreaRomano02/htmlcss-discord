@@ -131,7 +131,34 @@ header p{
   width: 100%;
 }
 
-/* !footer */
+.final-part{
+  text-align: center;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.final-part h3{
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.final-download{
+  background-color: #8EA1E1;
+  color: white;
+}
+
+/*! wave */
+.wave{
+  display: block;
+  color: #D3D3D3;
+}
+
+.upside-down{
+  rotate: 0.5turn;
+}
+
+/*! footer */
 #bg-footer>div{
   padding: 50px 0;
 }
