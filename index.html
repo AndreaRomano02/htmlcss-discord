@@ -7,6 +7,7 @@
   <meta name="author" content="Andrea Romano">
   <meta name="description" content="A page where can you find layout of discord web-site">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Layout Discord</title>
 </head>
 <body>
@@ -117,21 +118,93 @@
     <footer id="bg-footer">
       <div class="container">
         
-        <!-- Final Details -->
-        <div class="d-flex">
-          <div class="f-column-left border-dashed"></div>
-          <div class="f-column-right d-flex border-dashed">
-            <div class="f-subcolumn"></div>
-            <div class="f-subcolumn"></div>
-            <div class="f-subcolumn"></div>
-            <div class="f-subcolumn"></div>
+        <!-- Footer Top -->
+        <div class="footer-top d-flex">
+          <div class="f-column-left">
+            <h3>Il tuo posto per parlare</h3>
+            <div class="select-lenguage d-flex">
+              <img id="italian-flag" src="img/ita.png" alt="Italian Flag">
+              <label for="lenguage"></label>
+              <select name="lenguage" id="lenguage">
+                <option value="italiano">Italiano</option>
+                <option value="inglese">Inglese</option>
+                <option value="spagnolo">Spagnolo</option>
+              </select>
+            </div>
+            <div class="icons d-flex">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="f-column-right d-flex">
+            <!-- First Subcolumn -->
+            <div class="f-subcolumn">
+              <dl>
+                <!-- Title list -->
+                <dt>Prodotto</dt>
+                <!-- Description -->
+                <dd>Scarica</dd>
+                <dd>Perchè Discord</dd>
+                <dd>Nitro</dd>
+                <dd>Sicurezza</dd>
+                <dd>Assistenza</dd>
+              </dl>
+            </div>
+            <!-- Second Subcolumn -->
+            <div class="f-subcolumn">
+              <dl>
+                <!-- Title list -->
+                <dt>Compagnia</dt>
+                <!-- Description -->
+                <dd>Chi siamo</dd>
+                <dd>Lavora con noi</dd>
+                <dd>Marchio</dd>
+                <dd>Redazione</dd>
+                <dd>Negozio</dd>
+              </dl>
+            </div>
+            <!-- Third Subcolumn -->
+            <div class="f-subcolumn">
+              <dl>
+                <!-- Title list -->
+                <dt>Risorse</dt>
+                <!-- Description -->
+                <dd>Scarica</dd>
+                <dd>Perchè Discord</dd>
+                <dd>Nitro</dd>
+                <dd>Sicurezza</dd>
+                <dd>Assistenza</dd>
+                <dd>Scarica</dd>
+                <dd>Perchè Discord</dd>
+                <dd>Nitro</dd>
+                <dd>Sicurezza</dd>
+                <dd>Assistenza</dd>
+                <dd>Assistenza</dd>
+              </dl>
+            </div>
+            <!-- Fourth Subcolumn -->
+            <div class="f-subcolumn">
+              <dl>
+                <!-- Title list -->
+                <dt>Prodotto</dt>
+                <!-- Description -->
+                <dd>Scarica</dd>
+                <dd>Perchè Discord</dd>
+                <dd>Nitro</dd>
+                <dd>Sicurezza</dd>
+                <dd>Assistenza</dd>
+              </dl>
+            </div>
           </div>
         </div>
-        <div class="separator"></div>
-        <!-- Final Part of Footer -->
-        <div class="f-final d-flex border-dashed">
-          <div class="logo">LOGO</div>
-          <div class="button">BOTTONE</div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom d-flex">
+          <div class="logo">
+            <img src="img/logo.svg" alt="Logo">
+          </div>
+          <a href="#" class="button sign-in">Registrati</a href="#">
         </div>
       </div>
     </footer>

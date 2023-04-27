@@ -159,8 +159,8 @@ header p{
 }
 
 /*! footer */
-#bg-footer>div{
-  padding: 50px 0;
+#bg-footer > div{
+  padding-top: 100px;
 }
 
 #bg-footer{
@@ -169,32 +169,67 @@ header p{
 
 .f-column-left{
   flex-basis: 30%;
-  min-height: 500px;
-  background-color: palevioletred;
+  padding-bottom: 30px;
+}
+
+.footer-top h3{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #7289DA;
+}
+
+.select-lenguage{
+  margin: 20px 0;
+}
+
+#italian-flag{
+  width: 25px;
+}
+
+#lenguage{
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.icons{
+  color: white;
+  font-size: 20px;
+  gap: 20px;
 }
 
 .f-column-right{
   flex-basis: 70%;
-  min-height: 500px;
-  background-color: blue;
+  padding-bottom: 30px;
 }
 
 .f-subcolumn{
   flex-basis: 25%;
-  border: 1px dashed white;
 }
 
-.f-final{
-  background-color: aqua;
+.f-subcolumn dt{
+  color: #7289DA;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.f-subcolumn dd{
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+
+.footer-bottom{
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid gray;
 }
 
-.logo{
-  background-color: gray;
-  border: 1px solid black;
-
+.sign-in{
+  background-color: #8EA1E1;
+  color: white;
 }
 
 /* utilities */
