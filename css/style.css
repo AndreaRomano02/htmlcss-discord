@@ -6,17 +6,17 @@
 }
 
 /* general */
+body{
+  font-family: sans-serif;
+}
+
 .container{
   width: 1200px;
   margin: 0 auto;
 }
 
-#bg-header{
-  background-color: lightblue;
-}
-
-header{
-  padding: 20px 0;
+.bg-header{
+  background-color: #255EE9;
 }
 
 main section{
@@ -27,6 +27,10 @@ main section{
   background-color: lightgray;
 }
 /* header */
+header nav{
+  padding-top: 20px;
+}
+
 nav .logo-header{
   min-height: 50px;
   background-color: goldenrod;
@@ -46,10 +50,15 @@ header .center-nav{
   align-items: center;
 }
 
+.bg-jumbotron-header{
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+  padding: 80px 0;
+}
+
 .jumbotron-header{
   background-color: pink;
   margin: 50px auto;
-  width: 75%;
   min-height: 400px;
 
 }
