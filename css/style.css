@@ -15,9 +15,15 @@ body{
   margin: 0 auto;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .bg-nav-header{
   background-color: #255EE9;
 }
+
 
 main section{
   padding: 50px 0;
@@ -27,10 +33,8 @@ main section{
   background-color: lightgray;
 }
 
-header ul{
-  list-style-type: none;
-}
-/* header */
+
+/* ! header */
 header nav{
   padding-top: 20px;
 }
@@ -52,31 +56,57 @@ header .nav-menu-header{
   align-items: center;
 }
 
-.button-login-header{
-  text-decoration: none;
+.login-header{
   color: black;
   font-weight: 600;
   font-size: 0.9rem;
   background-color: white;
-  border-radius: 20px;
-  padding: 10px;
 }
 
+header ul{
+  list-style-type: none;
+}
+
+header h1{
+  font-size: 3.2rem;
+}
+
+header p{
+  font-size: 1.25rem;
+  margin-top: 35px;
+  line-height: 30px;
+}
 
 .bg-jumbotron-header{
   background-image: url(../img/jumbo.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 80px 0;
 }
 
 .jumbotron-header{
-  background-color: pink;
+  width: 40%;
+  color: white;
+  text-align: center;
   margin: 50px auto;
-  min-height: 400px;
-
+  min-height: 350px;
 }
 
-/* main */
+.jumbotron-header .buttons-jumbotron{
+  margin: 40px;
+}
+
+.buttons-jumbotron .download-mac{
+  background-color: white;
+  margin-right: 15px;
+}
+
+.buttons-jumbotron .open-in-browser{
+  color: white;
+  background-color: #23272A;
+}
+
+/* ! main */
 .large-column{
   background-color: cyan;
   flex-basis: 60%;
@@ -94,7 +124,7 @@ header .nav-menu-header{
   background-color: blueviolet;
 }
 
-/* footer */
+/* !footer */
 #bg-footer>div{
   padding: 50px 0;
 }
@@ -133,12 +163,6 @@ header .nav-menu-header{
 
 }
 
-.button{
-  background-color: gray;
-  border: 1px solid black;
-  padding: 5px;
-}
-
 /* utilities */
 .d-flex{
   display: flex;
@@ -148,6 +172,11 @@ header .nav-menu-header{
   flex-basis: 25%;
 }
 
+.button{
+  border-radius: 30px;
+  padding: 15px;
+}
+
 .separator{
   border: 1px solid black;
   margin: 20px 0;
@@ -155,4 +184,8 @@ header .nav-menu-header{
 
 .border-dashed{
   border: 2px dashed black;
+}
+
+.font-1_3{
+  font-size: 1.3rem;
 }
