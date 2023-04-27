@@ -24,7 +24,7 @@ a{
   background-color: #255EE9;
 }
 
-
+/* padding main */
 main section{
   padding: 20vh 0;
 }
@@ -56,7 +56,7 @@ header .nav-menu-header{
   align-items: center;
 }
 
-.login-header{
+.button.button-login-header{
   color: black;
   font-weight: 600;
   font-size: 0.9rem;
@@ -80,7 +80,6 @@ header p{
 .bg-jumbotron-header{
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-repeat: no-repeat;
   padding: 80px 0;
 }
 
@@ -89,7 +88,6 @@ header p{
   color: white;
   text-align: center;
   margin: 50px auto;
-  min-height: 350px;
 }
 
 .jumbotron-header .buttons-jumbotron{
@@ -99,32 +97,28 @@ header p{
 .buttons-jumbotron .download-mac{
   background-color: white;
   margin-right: 15px;
+  padding: 20px;
 }
 
 .buttons-jumbotron .open-in-browser{
   color: white;
   background-color: #23272A;
+  padding: 20px;
 }
 
 /* ! main */
 .large-column{
   flex-basis: 70%;
-  min-height: 500px;
 }
 
 .small-column{
   flex-basis: 30%;
-  min-height: 500px;
-}
-
-.single-column{
-  min-height: 900px;
-  text-align: center;
 }
 
 .single-column-text{
   width: 85%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .single-column img{
@@ -155,10 +149,12 @@ header p{
 }
 
 .upside-down{
-  rotate: 0.5turn;
+  transform: rotate(180deg);
 }
 
 /*! footer */
+
+/* bg footer */
 #bg-footer > div{
   padding-top: 100px;
 }
@@ -167,15 +163,16 @@ header p{
   background-color: #23272A;
 }
 
-.f-column-left{
-  flex-basis: 30%;
-  padding-bottom: 30px;
-}
-
+/** footer top */
 .footer-top h3{
   font-size: 2rem;
   font-weight: 900;
   color: #7289DA;
+}
+/* footer column left */
+.f-column-left{
+  flex-basis: 30%;
+  padding-bottom: 30px;
 }
 
 .select-lenguage{
@@ -198,6 +195,7 @@ header p{
   gap: 20px;
 }
 
+/* footer column right */
 .f-column-right{
   flex-basis: 70%;
   padding-bottom: 30px;
@@ -219,7 +217,7 @@ header p{
 
 }
 
-
+/** footer bottom */
 .footer-bottom{
   padding: 20px 0;
   justify-content: space-between;
@@ -244,15 +242,6 @@ header p{
 .button{
   border-radius: 30px;
   padding: 15px;
-}
-
-.separator{
-  border: 1px solid black;
-  margin: 20px 0;
-}
-
-.border-dashed{
-  border: 2px dashed black;
 }
 
 .font-1_3{
