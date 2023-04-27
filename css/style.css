@@ -7,7 +7,7 @@
 
 /* general */
 body{
-  font-family: sans-serif;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -26,7 +26,7 @@ a{
 
 
 main section{
-  padding: 50px 0;
+  padding: 20vh 0;
 }
 
 .bg-section{
@@ -108,15 +108,23 @@ header p{
 
 /* ! main */
 .large-column{
-  background-color: cyan;
-  flex-basis: 60%;
+  flex-basis: 70%;
   min-height: 500px;
 }
 
 .small-column{
-  background-color: pink;
-  flex-basis: 40%;
+  flex-basis: 30%;
   min-height: 500px;
+}
+
+.small-column h2{
+  font-size: 2.8rem;
+}
+
+.small-column p{
+  font-size: 1.3rem;
+  margin: 20px 0;
+  line-height: 25px;
 }
 
 .single-column{
