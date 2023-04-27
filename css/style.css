@@ -117,19 +117,18 @@ header p{
   min-height: 500px;
 }
 
-.small-column h2{
-  font-size: 2.8rem;
-}
-
-.small-column p{
-  font-size: 1.3rem;
-  margin: 20px 0;
-  line-height: 25px;
-}
-
 .single-column{
   min-height: 900px;
-  background-color: blueviolet;
+  text-align: center;
+}
+
+.single-column-text{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.single-column img{
+  width: 100%;
 }
 
 /* !footer */
@@ -196,4 +195,14 @@ header p{
 
 .font-1_3{
   font-size: 1.3rem;
+}
+
+.section-paragraphs{
+  font-size: 1.3rem;
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+.section-title{
+  font-size: 2.8rem;
 }
