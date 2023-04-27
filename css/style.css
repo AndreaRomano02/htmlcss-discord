@@ -1,0 +1,136 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#bg-header{
+  background-color: lightblue;
+}
+
+header{
+  padding: 20px 0;
+}
+
+main section{
+  padding: 50px 0;
+}
+
+.bg-section{
+  background-color: lightgray;
+}
+/* header */
+nav .logo-header{
+  min-height: 50px;
+  background-color: goldenrod;
+  align-items: center;
+}
+
+header .center-nav{
+  flex-basis: 50%;
+  background-color: goldenrod;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-nav{
+  background-color: goldenrod;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jumbotron-header{
+  background-color: pink;
+  margin: 50px auto;
+  width: 75%;
+  min-height: 400px;
+
+}
+
+/* main */
+.large-column{
+  background-color: cyan;
+  flex-basis: 60%;
+  min-height: 500px;
+}
+
+.small-column{
+  background-color: pink;
+  flex-basis: 40%;
+  min-height: 500px;
+}
+
+.single-column{
+  min-height: 900px;
+  background-color: blueviolet;
+}
+
+/* footer */
+#bg-footer>div{
+  padding: 50px 0;
+}
+
+#bg-footer{
+  background-color: #23272A;
+}
+
+.f-column-left{
+  flex-basis: 30%;
+  min-height: 500px;
+  background-color: palevioletred;
+}
+
+.f-column-right{
+  flex-basis: 70%;
+  min-height: 500px;
+  background-color: blue;
+}
+
+.f-subcolumn{
+  flex-basis: 25%;
+  border: 1px dashed white;
+}
+
+.f-final{
+  background-color: aqua;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  background-color: gray;
+  border: 1px solid black;
+
+}
+
+.button{
+  background-color: gray;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* utilities */
+.d-flex{
+  display: flex;
+}
+
+.fb-25{
+  flex-basis: 25%;
+}
+
+.separator{
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.border-dashed{
+  border: 2px dashed black;
+}
