@@ -15,7 +15,7 @@ body{
   margin: 0 auto;
 }
 
-.bg-header{
+.bg-nav-header{
   background-color: #255EE9;
 }
 
@@ -26,29 +26,42 @@ main section{
 .bg-section{
   background-color: lightgray;
 }
+
+header ul{
+  list-style-type: none;
+}
 /* header */
 header nav{
   padding-top: 20px;
 }
 
 nav .logo-header{
-  min-height: 50px;
-  background-color: goldenrod;
   align-items: center;
 }
 
-header .center-nav{
+header .nav-menu-header{
   flex-basis: 50%;
-  background-color: goldenrod;
-  justify-content: center;
+  font-weight: bold;
+  color: white;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-#login-nav{
-  background-color: goldenrod;
+#login-header{
   justify-content: flex-end;
   align-items: center;
 }
+
+.button-login-header{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
 
 .bg-jumbotron-header{
   background-image: url(../img/jumbo.png);
