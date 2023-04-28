@@ -17,9 +17,11 @@ body{
 
 a{
   text-decoration: none;
-  color: black;
 }
 
+.nav-menu-header a{
+  color: white;
+}
 .bg-nav-header{
   background-color: #255EE9;
 }
@@ -80,6 +82,7 @@ header p{
 .bg-jumbotron-header{
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
   padding: 80px 0;
 }
 
@@ -98,6 +101,7 @@ header p{
   background-color: white;
   margin-right: 15px;
   padding: 20px;
+  color: black;
 }
 
 .buttons-jumbotron .open-in-browser{
